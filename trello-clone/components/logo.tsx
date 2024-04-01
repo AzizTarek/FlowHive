@@ -9,11 +9,9 @@ const headingFont = localFont({
 export const Logo = () => {
   return (
     <Link href="/">
-      <div className="hover:opacity-75 transition items-center gap-x-2 hidden md:flex">
-        <Image src="/logo.svg" alt="Logo" height={35} width={35} />
-        <p
-          className={cn("text-lg text-neutral-700 pb-1", headingFont.className)}
-        >
+      <div className="hover:opacity-65 transition items-center gap-x-2 hidden md:flex">
+        <Image src="/logo.svg" alt="Logo" height={34} width={34} />
+        <p className={cn("text-lg text-neutral-700 ", headingFont.className)}>
           FlowHive
         </p>
       </div>

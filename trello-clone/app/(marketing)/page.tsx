@@ -30,7 +30,7 @@ const MarketingPage = () => {
           Top choice for task management
         </div>
         <div className="container">
-          <h1 className="ctext text-3xl md:text-6xl text-center text-neutral-800 mb-6">
+          <h1 className=" text-3xl md:text-6xl text-center text-neutral-800 mb-6">
             Where ideas buzz and productivity
           </h1>
         </div>
