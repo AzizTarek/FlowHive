@@ -1,1 +1,3 @@
 # FlowHive
+#Flowhive: A Trello-inspired Fullstack Web App
+#Flowhive is a full-stack, Trello-inspired web application built with Next.js, Prisma ORM, and MySQL for the backend; and Tailwind CSS and shadcnUI for the frontend. It offers user authentication, organizations, board creation, Unsplash API for cover images, and activity logs. Additionally, it supports workspaces, lists, cards, drag-and-drop functionality, and audit logs for the entire organization. Flowhive features Stripe subscription for unlimited boards and has a separate landing page. It supports member roles, board renaming, deletion, and other features like card descriptions, rename, delete, and copy options. The app also maintains a card activity log for each board.
