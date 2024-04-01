@@ -1,0 +1,23 @@
+.container {
+  display: inline-block;
+}
+
+h1.ctext {
+  border-right: 5px solid;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 4s, cursor 0.4s step-end infinite alternate;
+}
+
+/* cursor blinking*/
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+} /* typing effect*/
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
